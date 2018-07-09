@@ -1,0 +1,317 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	/*无下划线*/
+	color: black;
+}
+
+ul {
+	/*列表ul无样式*/
+	list-style: none;
+	color: white
+}
+.title{
+	width: 100%;
+	height: 65px;
+	/*background: red;*/
+}
+.h{
+	padding: 0 15%;
+/*	 : black;*/
+	height: 100%;
+	width: 70%;
+}
+.title .tit-img{
+	float: left;
+	display: inline-block;
+	height: 100%;
+	width: 40%;
+/*	background:red;*/
+	
+}
+.title .tit-img img{
+	padding-top: 13px;
+}
+.title .tit{
+	float: left;
+	height: 100%;
+	width: 60%;
+/*	background: black;*/
+	display: inline-block;
+}
+.tit .words {
+    display: inline-block;
+    text-align: center;
+    line-height: 65px;
+}
+.words input{
+	border-radius: 5%;
+	box-shadow:1px 1px 1px #888888; ;
+}
+.nav{
+	/*1.为导航添加高度与行高，添加背景*/
+	height: 25px;
+	line-height: 25px;
+	width: 100%;
+	background: #efefef;
+}
+#menu{
+	float: left;
+	height: 25px;
+	width: 945px;
+	margin: 0 auto;
+	
+}
+#menu li{
+	float: left;
+	padding: 0 20px;
+	width: 6%;
+}
+ul li:first-child {
+    padding: 0 !important;
+}
+.nav .h li a:hover{
+	background: gainsboro;
+}
+.json{
+	height: 207px;
+	width: 100%;
+}
+.content{
+	float: left;
+	height: 1360px;
+	width: 100%;
+}
+.left-content{
+	float: left;
+	width: 70%;
+	height: 1360px;
+	background: white;
+}
+.right-content{
+	float: left;
+	width:30%;
+	height: 1360px;
+}
+.foot{
+	float: left;
+	width: 100%;
+	height: 350px;
+	background: #898989;
+	
+}
+
+.foot-contan{
+	width: 100%;
+	height: 80%;
+	
+}
+.foot-bottom{
+	width: 100%;
+	height: 20%;
+	
+}
+.lcontent1{
+	height: 100px;
+	width: 100%;
+
+}
+.lecon{
+	height: 100px;
+	width: 25%;
+	display: inline-block;
+	float: left;
+}
+.lecon img {
+	display: block;
+	margin:27px auto;
+	height: 46px;
+	width: 161px;
+	background: red;
+}
+.lcontent2{
+	height: 1260px;
+	width: 100%;
+	/*background: gainsboro;*/
+}
+.main1 {
+    height: 126px;
+    width: 100%;
+    
+}
+.top-1{
+	height: 80%;
+	width: 100%;
+
+}
+.bottom{
+	height: 20%;
+	width: 100%;
+
+}
+.left {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.right {
+    display: lef;
+    width: 75%;
+    height: 100%;
+    float: right;
+    display: inline-block;
+}
+.right p {
+    font-size: 12px;
+    /* float: right; */
+    margin-left: 20px;
+}
+.left img{
+	margin-top: 7px;
+	margin-left: 20px;
+	
+}
+.bottom a {
+    font-size: 14px;
+    margin-right: 51px;
+    float: right;
+    display: block;
+    color: blue;
+}
+.right h3{
+	color: red;
+	font-size: 14px;
+	margin-left: 21px;
+	margin-top: 18px;
+}
+.right1 {
+    margin-top: 14px;
+    height: 57px;
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+}
+.img4 img {
+    height: 20px;
+    float: right;
+    margin-top: 8px;
+    display: block;
+    /* width: 100%; */
+}
+.search1{
+	height: 50%;
+	width: 100%;
+	
+	
+}
+.search1 img {
+    margin: -5px 0px -5px 0px;
+}
+.img4 {
+    width: 100%;
+    height: 50%;
+}
+#sea {
+    float: right;
+    color: #898989;
+    margin-right: 80px;
+}
+.w{
+	padding: 0 15% 0 15%;
+}
+.right2{
+	
+	height: 100px;
+	width: 100%;
+
+}
+.sera {
+    display: inline-block;
+    mmargin-top: 20x;
+    text-align: center;
+    margin: 47px 0px 0px 4px;
+}
+.sera img {
+    margin: 0px -1px -4px -5px;
+}
+.right3{
+   
+	height: 150px;
+	widows: 100%;
+	/*background: red;*/
+}
+.con1{
+	width:100%;
+	height: 25%;
+	/*background: yellow;*/
+}
+.con2{
+	width:100%;
+	height: 75%;
+	
+	
+}
+.con2 img{
+	width:195px;
+	height:77px;
+	
+}
+.con1{
+	display: inline-block;
+	
+}
+.con1 p{
+	border-bottom: 1px solid #ccc;
+	}
+	.right33{
+   
+	height: 60px;
+	widows: 100%;
+	/*background: red;*/
+}
+.conyan1{
+    float: left;
+	display: inline-block;
+	width: 20%;
+	height: 280px;
+}
+.conyan1 ul{
+	margin-top: 55px;
+}
+.zuixia{
+	margin: 0px 0px 30px 0px;
+}
+
+.foot-bottom{
+	height: 25px;
+	line-height: 25px;
+	width: 100%;
+	color: white;
+}
+.bottom001 {
+	float: left;
+	height: 25px;
+	width: 933px;
+	margin: 0 auto;
+}
+.bottom001 li {
+	float: left;
+	padding-left: 8px;
+}
+.bottom001 p {
+	color: white;
+	float: left;
+	display: inline-block;
+	float: left;
+}
+ul.bottom001 {
+    width: 37%;
+}
+.json img {
+    width: 100%;
+    /* background-size: 100%; */
+}
